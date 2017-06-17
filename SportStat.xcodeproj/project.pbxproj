@@ -14,6 +14,7 @@
 		D90464851EF5CCA00070F47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90464831EF5CCA00070F47A /* LaunchScreen.storyboard */; };
 		D90464901EF5CCA10070F47A /* SportStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904648F1EF5CCA10070F47A /* SportStatTests.swift */; };
 		D904649B1EF5CCA10070F47A /* SportStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904649A1EF5CCA10070F47A /* SportStatUITests.swift */; };
+		D9D8A84E1EF5CF3D00EC95B1 /* CFTShieldBroker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8A84D1EF5CF3D00EC95B1 /* CFTShieldBroker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D90464961EF5CCA10070F47A /* SportStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D904649A1EF5CCA10070F47A /* SportStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportStatUITests.swift; sourceTree = "<group>"; };
 		D904649C1EF5CCA10070F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D8A84D1EF5CF3D00EC95B1 /* CFTShieldBroker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFTShieldBroker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D90464791EF5CCA00070F47A /* SportStat */ = {
 			isa = PBXGroup;
 			children = (
+				D9D8A84C1EF5CF2B00EC95B1 /* Shield */,
 				D904647A1EF5CCA00070F47A /* AppDelegate.swift */,
 				D904647C1EF5CCA00070F47A /* ViewController.swift */,
 				D904647E1EF5CCA00070F47A /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				D904649C1EF5CCA10070F47A /* Info.plist */,
 			);
 			path = SportStatUITests;
+			sourceTree = "<group>";
+		};
+		D9D8A84C1EF5CF2B00EC95B1 /* Shield */ = {
+			isa = PBXGroup;
+			children = (
+				D9D8A84D1EF5CF3D00EC95B1 /* CFTShieldBroker.swift */,
+			);
+			name = Shield;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				D904647D1EF5CCA00070F47A /* ViewController.swift in Sources */,
 				D904647B1EF5CCA00070F47A /* AppDelegate.swift in Sources */,
+				D9D8A84E1EF5CF3D00EC95B1 /* CFTShieldBroker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				D90464A11EF5CCA10070F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90464A21EF5CCA10070F47A /* Build configuration list for PBXNativeTarget "SportStatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				D90464A41EF5CCA10070F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90464A51EF5CCA10070F47A /* Build configuration list for PBXNativeTarget "SportStatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				D90464A71EF5CCA10070F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
